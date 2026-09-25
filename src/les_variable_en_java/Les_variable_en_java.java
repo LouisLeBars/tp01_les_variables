@@ -16,10 +16,20 @@ public class Les_variable_en_java {
         Scanner sc = new Scanner(System.in);
           int x = 0;
           int y = 0;
-          System.out.print("donner un nombre pour x et y ? : ");
+          int z = 0;
+          System.out.print("saisir x ? : ");/** l'utilisateur rentre une valaur pour x et y
+           */
           x = sc.nextInt();
-          y = sc.nextInt();          
-            System.out.print
+          System.out.print("saisir y ? : ");
+          y = sc.nextInt();  
+          System.out.println("avant permutation x="+x+ " et y="+y);/**on echange les valeurs x et y en passant par une variable z pur ne pas perdre la valeur de x 
+           */
+           z = x;
+           x = y;
+           y = z;
+         System.out.println("apres permutation x="+x+ " et y="+y);
+     
+          
         
                   }                }
     
