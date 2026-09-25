@@ -26,7 +26,7 @@ public class Les_variable_en_java {
            z = x;
            x = y;
            y = z;
-         System.out.println("apres permutation x="+ x+ " et y="+y); */
+         System.out.println("apres permutation x="+ x+ " et y="+y); 
          
      Scanner sc = new Scanner(System.in);
      int a = 0;
@@ -38,11 +38,36 @@ public class Les_variable_en_java {
      b = sc.nextInt();
      x = (a+b)*2 ;// calcul du resultat
      System.out.println("le resultat de (a+b)*2 est "+ x );//affiche le resultat
-     
-             
+     */
+ 
+    Scanner sc = new Scanner(System.in);
+    int x = 3;
+    System.out.println("2: ");
+    System.out.println("1: ");
+    System.out.println("0: ");
+    System.out.print("saisir votre choix : ");
+    x = sc.nextInt();
+   
+  do{
+      System.out.println("option :");
+      opt = sc.nextInt();
+      
+      if(opt ==1){
+          System.out.println("bonjour");
+          }
+      else if(opt ==2){
+          System.out.println("aurevoir");
+      }while(opt !=0)
+  }
+    
+    
+    }
+    
+               }
+            
   
-        
-                  }                }
+   
+           
     
 
     
