@@ -32,12 +32,12 @@ public class Les_variable_en_java {
      int a = 0;
      int b = 0;
      int x = 0;
-     System.out.print("saisir a ? : ");
+     System.out.print("saisir a ? : ");//saisie de a 
      a = sc.nextInt();
-     System.out.print("saisir b ? : ");
+     System.out.print("saisir b ? : ");//saisie de b
      b = sc.nextInt();
-     x = (a+b)*2 ;
-     System.out.println("le resultat de (a+b)*2 est "+ x );
+     x = (a+b)*2 ;// calcul du resultat
+     System.out.println("le resultat de (a+b)*2 est "+ x );//affiche le resultat
      
              
   
