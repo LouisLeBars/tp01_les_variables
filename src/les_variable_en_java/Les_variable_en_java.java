@@ -27,7 +27,7 @@ public class Les_variable_en_java {
            z = x;
            x = y;
            y = z;
-         System.out.println("apres permutation x="+x+ " et y="+y);
+         System.out.println("apres permutation x="+ x+ " et y="+y);
      
           
         
